@@ -1,0 +1,144 @@
+switch(listmsg[0].toInt()) {
+    case SIGNUP_QUEST:{
+
+    }
+    case SIGNUP_OK:{
+
+    }
+    case LOGIN_QUEST:{
+
+    }
+    case LOGIN_OK:{
+
+    }
+    case PASSWORD_FIND:{
+
+    }
+    case PASSWORD_PROTECT_ANSWER:{
+
+    }
+    case PASSWORD_PROTECT_QUESTION:{
+
+    }
+    case PASSWORD_FIND_OK:{
+
+    }
+    case MESSAGE:{
+
+    }
+    case SEND_OK:{
+
+    }
+    case RECEIVE_OK:{
+
+    }
+    case SIGNUP_USER_INFO_REQUEST:{
+
+    }
+    case GROUP_INFO_REQUEST:{
+
+    }
+    case FRIEND_INFO:{
+
+    }
+    case GROUP_INFO:{
+
+    }
+    case FRIEND_HISTORY_REQUEST:{
+
+    }
+    case GROUP_HISTORY_REQUEST:{
+
+    }
+    case FRIEND_HISTORY:{
+
+    }
+    case GROUP_HISTORY:{
+
+    }
+    case FRIENDS_INFO_REQUEST:{
+
+    }
+    case GROUPS_INFO_REQUEST:{
+
+    }
+    case FRIENDS_INFO:{
+
+    }
+    case GROUPS_INFO:{
+
+    }
+    case FRIEND_ADD_REQUEST:{
+
+    }
+    case FRIEND_ADD_OK:{
+
+    }
+    case FRIEND_REMOVE_REQUEST:{
+
+    }
+    case FRIEND_REMOVE_OK:{
+
+    }
+    case GROUP_ADD_REQUEST:{
+
+    }
+    case GROUP_ADD_OK:{
+
+    }
+    case GROUPUSER_REMOVE_REQUEST:{
+
+    }
+    case GROUPUSER_REMOVE_OK:{
+
+    }
+    case USER_INFO_UPDATE_REQUEST:{
+
+    }
+    case USER_INFO_UPDATE_OK:{
+
+    }
+    case ERROR:{
+
+    }
+    default:
+        break;
+    }
+
+
+
+
+    void IS_SIGNUP_QUEST(QString msg, QTcpSocket* socket) {}
+void IS_SIGNUP_OK(QString msg, QTcpSocket* socket) {}
+void IS_LOGIN_QUEST(QString msg, QTcpSocket* socket) {}
+void IS_LOGIN_OK(QString msg, QTcpSocket* socket) {}
+void IS_PASSWORD_FIND(QString msg, QTcpSocket* socket) {}
+void IS_PASSWORD_PROTECT_ANSWER(QString msg, QTcpSocket* socket) {}
+void IS_PASSWORD_PROTECT_QUESTION(QString msg, QTcpSocket* socket) {}
+void IS_PASSWORD_FIND_OK(QString msg, QTcpSocket* socket) {}
+void IS_MESSAGE(QString msg, QTcpSocket* socket) {}
+void IS_SEND_OK(QString msg, QTcpSocket* socket) {}
+void IS_RECEIVE_OK(QString msg, QTcpSocket* socket) {}
+void IS_SIGNUP_USER_INFO_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_GROUP_INFO_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_FRIEND_INFO(QString msg, QTcpSocket* socket) {}
+void IS_GROUP_INFO(QString msg, QTcpSocket* socket) {}
+void IS_FRIEND_HISTORY_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_GROUP_HISTORY_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_FRIEND_HISTORY(QString msg, QTcpSocket* socket) {}
+void IS_GROUP_HISTORY(QString msg, QTcpSocket* socket) {}
+void IS_FRIENDS_INFO_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_GROUPS_INFO_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_FRIENDS_INFO(QString msg, QTcpSocket* socket) {}
+void IS_GROUPS_INFO(QString msg, QTcpSocket* socket) {}
+void IS_FRIEND_ADD_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_FRIEND_ADD_OK(QString msg, QTcpSocket* socket) {}
+void IS_FRIEND_REMOVE_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_FRIEND_REMOVE_OK(QString msg, QTcpSocket* socket) {}
+void IS_GROUP_ADD_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_GROUP_ADD_OK(QString msg, QTcpSocket* socket) {}
+void IS_GROUPUSER_REMOVE_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_GROUPUSER_REMOVE_OK(QString msg, QTcpSocket* socket) {}
+void IS_USER_INFO_UPDATE_REQUEST(QString msg, QTcpSocket* socket) {}
+void IS_USER_INFO_UPDATE_OK(QString msg, QTcpSocket* socket) {}
+void IS_ERROR(QString msg, QTcpSocket* socket) {}

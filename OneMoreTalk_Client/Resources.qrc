@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/icon/(1).png</file>
+        <file>Resources/icon/(10).png</file>
+        <file>Resources/icon/(11).png</file>
+        <file>Resources/icon/(12).png</file>
+        <file>Resources/icon/(13).png</file>
+        <file>Resources/icon/(14).png</file>
+        <file>Resources/icon/(15).png</file>
+        <file>Resources/icon/(16).png</file>
+        <file>Resources/icon/(17).png</file>
+        <file>Resources/icon/(18).png</file>
+        <file>Resources/icon/(19).png</file>
+        <file>Resources/icon/(2).png</file>
+        <file>Resources/icon/(20).png</file>
+        <file>Resources/icon/(21).png</file>
+        <file>Resources/icon/(22).png</file>
+        <file>Resources/icon/(23).png</file>
+        <file>Resources/icon/(24).png</file>
+        <file>Resources/icon/(25).png</file>
+        <file>Resources/icon/(26).png</file>
+        <file>Resources/icon/(27).png</file>
+        <file>Resources/icon/(28).png</file>
+        <file>Resources/icon/(29).png</file>
+        <file>Resources/icon/(3).png</file>
+        <file>Resources/icon/(30).png</file>
+        <file>Resources/icon/(0).png</file>
+        <file>Resources/icon/(4).png</file>
+        <file>Resources/icon/(5).png</file>
+        <file>Resources/icon/(6).png</file>
+        <file>Resources/icon/(7).png</file>
+        <file>Resources/icon/(8).png</file>
+        <file>Resources/icon/(9).png</file>
+        <file>Resources/LoginBG.jpg</file>
+        <file>Resources/md_icon.png</file>
+        <file>Resources/md_msg.png</file>
+        <file>Resources/icon/group.png</file>
+    </qresource>
+</RCC>

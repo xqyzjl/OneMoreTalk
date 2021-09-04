@@ -130,15 +130,14 @@ NeuTalk base on Qt
 *在概要设计的基础上，开发者需要进行软件系统的详细设计。在详细设计中，描述实现具体模块所涉及到的主要算法、数据结构、类的层次结构及调用关系，需要说明软件系统各个层次中的每一个程序(每个模块或子程序)的设计考虑，以便进行编码和测试。应当保证软件的需求完全分配给整个软件。详细设计应当足够详细，能够根据详细设计报告进行编码。*
 
 ## 消息传输格式
-* 消息传输，延迟100ms后flush
 
 ### 登陆页面
 
 - 注册请求：
-  - 客户端上传：`"SIGNUP_QUEST#[nickname]#[password]#[question]#[answer]"`
+  - 客户端上传：`"SIGNUP#[nickname]#[password]#[question]#[answer]"`
   - 服务端返回：`"SIGNUP_OK#[userID]"` / `"ERROR: SIGNUP_ERROR"`
 - 登录请求：
-  - 客户端上传：`"LOGIN_QUEST#[userID]#[password]"`
+  - 客户端上传：`"LOGIN#[userID]#[password]"`
   - 服务端返回：`"LOGIN_OK"` / `"ERROR: LOGIN_ERROR"`
 - 找回密码：
   - 客户端上传：
